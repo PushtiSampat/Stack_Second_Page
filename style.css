@@ -1,0 +1,35 @@
+.stack-image{
+
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.img
+{
+    display: inline-block;
+}
+@media only screen and (min-width: 1000px) {
+    .stack-info{
+        margin-left: 15rem;
+    }
+    .afterimage{
+        margin-left: 15rem;
+    }
+    .stack-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
+ 
+  @media only screen and (max-width: 500px) {
+
+    .stack-image{
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: row;
+        justify-content: center;
+    }
+  }
