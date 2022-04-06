@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+
+      </style>
+</head>
+<body>
+   <Center><h1>Stack</h1>
+    <div class="text-center" style= "width: 100%; height: 45px; clear:both;">
+        <input id="nextbutton"  type="button"  value = "Start" onclick="demoNext()"/> 
+        <input id="pushbutton"  type="button"  value = "Push" onclick="demoPush()"/>  
+        <input id="popbutton"  type="button"  value = "Pop" onclick="demoPop()"/> 
+        <input id="topbutton"  type="button"  value = "Top" onclick="demoTop()"/>  
+        <input id="isemptybutton"  type="button"  value = "IsEmpty" onclick="demoIsEmpty()"/>
+        <input id="isfullbutton"  type="button"  value = "IsFull" onclick="demoIsFull()"/>
+        <input id="restartbutton"  type="button"  value = "Restart" onclick="demoRestart()"/> 
+   </div>
+  
+ 
+   <div class="text-center">
+    <h5 id="Observation"style=" font-weight: 700;font-size: 1.25rem; margin: 0 0 0 0; display: none;" >Observation</h5>
+  
+    <div id="instructions" style="width: 80%; height: 50px; display: none;"> </div>
+    <div>
+     <canvas  id="canvas"; style="display:none;"> </canvas>
+   </div>
+   </div>
+
+   </Center>
+ <!--style="margin-left: 10rem;"-->
+ <div>
+  <h1 align="center" style="color: brown;">Stack</h1>
+  <ul style="list-style-type: square;" class="stack-info">
+    <li style="font-size: 20px;">A Stack is a linear data structure that follows the principle of <b>Last In First Out(LIFO)</b>.</li>
+    <li style="font-size: 20px;">This means the last element inserted inside the stack is removed first.</li>
+  </ul>
+</div>
+<div>
+  <h1 align="center" style="color: brown;">Let's Imagine Stack</h1>
+</div>
+  
+<div class="stack-image">
+  <img align="center" src="1_first.png" alt="Stack of books and plates">
+  <img align="center" src="2_first.png" alt="Stack of books and plates">
+</div>
+<div>
+  <ul style="list-style-type: square;" class="afterimage">
+    <li style="font-size: 20px;">New book/plate can be added from top and top book/plate can be removed.</li>
+  </ul>
+</div>
+  <!--
+<script src="output_dirs/Canvas.js" ></script>
+   <script src="output_dirs/Stack.js" ></script>
+
+    <script src="output_dirs/element.js" ></script>
+    <script src="output_dirs/app.js" ></script>
+  --> 
+
+   
+</body>
+</html>
